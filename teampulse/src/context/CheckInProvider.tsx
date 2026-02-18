@@ -1,7 +1,6 @@
 import { useMemo, type ReactNode } from "react";
 import { CheckInContext } from "./CheckInContext";
 import { useCheckIns } from "../reducers/checkInReducer";
-// import { useDayStats } from "../hooks/useDayStats";
 
 interface CheckInProviderProps {
   children: ReactNode;
